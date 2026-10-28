@@ -1,30 +1,25 @@
+import Banner from '../components/Banner';
+import Profile from '../components/Profile';
+import Portfolio from '../components/Portfolio';
+import Gallery from '../components/Gallery';
+import Articles from '../components/Articles';
+import Tutorials from '../components/Tutorials';
+
 function Home() {
   return (
     <div className="home-page">
 
-      <section className="home-hero">
+      <Banner />
 
-        <h1>
-          DEV@Deakin
-        </h1>
+      <Profile />
 
-        <p>
-          Discover, connect and share with the Deakin community.
-        </p>
+      <Portfolio />
 
-      </section>
+      <Gallery />
 
-      <section className="home-content">
+      <Articles />
 
-        <h2>
-          Welcome to DEV@Deakin
-        </h2>
-
-        <p>
-          This is the home page of the DEV@Deakin platform.
-        </p>
-
-      </section>
+      <Tutorials />
 
     </div>
   )
